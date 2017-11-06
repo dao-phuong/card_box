@@ -1,0 +1,28 @@
+{
+  "name": "card_box",
+  "version": "1.0.0",
+  "description": "Card box CSS module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daoduyphuong/card_box.git"
+  },
+  "keywords": [
+    "card_box"
+  ],
+  "author": "phuongdd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daoduyphuong/card_box/issues"
+  },
+  "homepage": "https://github.com/daoduyphuong/card_box#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.2.0"
+  }
+}
