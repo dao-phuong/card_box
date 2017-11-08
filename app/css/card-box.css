@@ -1,9 +1,27 @@
-.card_box {
+.card {
+    width: 50%;
+    border: 1px solid #efefef;
+
     &__image {
 
     }
 
     &__content {
+        position: relative;
+        padding: 0 15px 45px;
 
+        &__detail {
+            text-align: justify;
+        }
+        &__action {
+            position: absolute;
+            left: 15px;
+            right: 15px;
+            bottom: 0;
+
+            > .option {
+                float: right;
+            }
+        }
     }
 }

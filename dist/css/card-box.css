@@ -1,0 +1,15 @@
+.card {
+  width: 50%;
+  border: 1px solid #efefef; }
+  .card__content {
+    position: relative;
+    padding: 0 15px 45px; }
+    .card__content__detail {
+      text-align: justify; }
+    .card__content__action {
+      position: absolute;
+      left: 15px;
+      right: 15px;
+      bottom: 0; }
+      .card__content__action > .option {
+        float: right; }
