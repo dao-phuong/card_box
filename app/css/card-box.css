@@ -18,10 +18,8 @@
             left: 15px;
             right: 15px;
             bottom: 0;
-
-            > .option {
-                float: right;
-            }
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
