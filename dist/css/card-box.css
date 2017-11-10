@@ -3,13 +3,15 @@
   border: 1px solid #efefef; }
   .card__content {
     position: relative;
-    padding: 0 15px 45px; }
+    padding: 30px 30px 110px; }
+    .card__content > h2, .card__content p {
+      margin-top: 0; }
     .card__content__detail {
       text-align: justify; }
     .card__content__action {
       position: absolute;
-      left: 15px;
-      right: 15px;
+      left: 30px;
+      right: 30px;
       bottom: 0;
       display: flex;
       justify-content: space-between; }
